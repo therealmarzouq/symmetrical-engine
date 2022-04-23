@@ -16,12 +16,12 @@ export default function Home({ videos }) {
               Marzouq Mohammed
             </h1>
             <h2 className="text-gray-700 dark:text-gray-200 mb-4">
-              Frontend Engineer
+              Software Engineer
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-16">
               Hi there, My name is Marzouq. I'm a Software enginner and a
-              creative from Lagos, I'm a sucker for process Automations and
-              making things Interactive.
+              creative human from Lagos, Nigeria and I'm a sucker for process
+              Automations and making things Interactive.
             </p>
           </div>
           <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
