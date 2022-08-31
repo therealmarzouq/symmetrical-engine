@@ -25,8 +25,8 @@ export default function About() {
             </li>
             <li>
               Website:{' '}
-              <Link href="https://therealmarzouq.io">
-                <a>https://therealmarzouq.io</a>
+              <Link href="https://therealmarzouq.co">
+                <a>https://therealmarzouq.co</a>
               </Link>
             </li>
             <li>
@@ -39,11 +39,11 @@ export default function About() {
           <h2>Bio</h2>
           <p>
             Well hello there! My name is Marzouq. I'm a Software Engineer and
-            Creative Human from Lagos, Nigeria.{' '}
+            Creative from Lagos, Nigeria 🇳🇬.{' '}
           </p>
           <p>
             I'm also a Co-founder and Software Engineer at{' '}
-            <a href="https://movu.africa/">Movu.africa</a>, building solutions
+            <a href="https://movu.africa/">movu.africa</a>, building solutions
             for African creatives to sell their content from everywhere around
             the globe.
           </p>
@@ -68,14 +68,15 @@ export default function About() {
             tend to overcommunicate the obvious as I found that it is one trait
             shared by most great mentors.
           </p>
-          {/* <h2>Headshots</h2> */}
-          {/* <div className="flex space-x-8">
+          {/* <h2>Headshots</h2>
+          <div className="flex space-x-8">
             <a href="/avatar.jpg">
               <Image
                 alt="Marzouq headshot"
                 width={400}
+                height={380}
                 quality={100}
-                src={avatar}
+                src={'/marzouq.jpeg'}
                 className="rounded-md"
               />
             </a>
@@ -83,8 +84,9 @@ export default function About() {
               <Image
                 alt="Marzouq headshot"
                 width={400}
+                height={400}
                 quality={100}
-                src={avatarBW}
+                src={'/marzouq.jpeg'}
                 className="rounded-md"
               />
             </a>

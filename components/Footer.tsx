@@ -28,11 +28,9 @@ export default function Footer() {
               About
             </a>
           </Link>
-          {/* <Link href="/newsletter">
-            <a className="text-gray-500 hover:text-gray-600 transition">
-              Newsletter
-            </a>
-          </Link> */}
+          <Link href="/blog">
+            <a className="text-gray-500 hover:text-gray-600 transition">Blog</a>
+          </Link>
         </div>
         <div className="flex flex-col space-y-4">
           <ExternalLink href="https://twitter.com/therealmarzouq">
@@ -64,11 +62,11 @@ export default function Footer() {
               Tweets
             </a>
           </Link>
-          <Link href="/tweets">
+          <ExternalLink href="https://www.amazon.com/hz/wishlist/ls/25A7E7DRT5XJD?ref_=wl_share">
             <a className="text-gray-500 hover:text-gray-600 transition">
               Wishlist
             </a>
-          </Link>
+          </ExternalLink>
         </div>
       </div>
     </footer>
